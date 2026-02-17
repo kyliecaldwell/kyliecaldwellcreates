@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kylie Caldwell | Resume</title>
+
+    <style>
+        body {
+            background-color: #b7d1db; /* soft blue background */
+            font-family: Georgia, "Times New Roman", serif;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+        }
+
+        img {
+            width: 350px;
+            border-radius: 15px;
+        }
+        <img src="KylieCaldwell.JPG" alt="KylieCaldwell.JPG">
+
+
+        h1 {
+            color: #8b0000; /* dark red name */
+            font-size: 42px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #8b0000; /* red section titles */
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        p {
+            max-width: 900px;
+            margin: 15px auto;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .highlight-section {
+            color: #003366; /* different text color requirement */
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="profile.jpg" alt="Kylie Caldwell Headshot">
+
+    <h1>Kylie Caldwell</h1>
+
+    <p>
+        Journalist and communications professional specializing in political reporting, editorial leadership, 
+        and multimedia storytelling. Experienced in translating complex policy and research into clear, 
+        accessible content for diverse audiences across broadcast, digital, and print platforms.
+    </p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Editorial & Feature Writing</li>
+        <li>News & Political Reporting</li>
+        <li>Video Production & Editing</li>
+        <li>Adobe Creative Suite</li>
+        <li>Social Media Content Creation</li>
+        <li>Digital & Print Magazine Design</li>
+        <li>Research & Fact-Checking</li>
+        <li>Spanish (Conversant)</li>
+        <li>ASL (Beginner)</li>
+    </ul>
+
+    <h2>Experience</h2>
+
+    <p class="highlight-section">KGOU Radio (NPR) – Host & Reporter | August 2025 – Present</p>
+    <ul>
+        <li>Report, write, and produce 2–3 original news stories weekly for statewide broadcast and digital publication.</li>
+        <li>Host weekly news segments with clear, engaging delivery under tight deadlines.</li>
+        <li>Edit and mix audio to NPR broadcast standards.</li>
+    </ul>
+
+    <p class="highlight-section">The Campus Edit – Editor-In-Chief | May 2025 – Present</p>
+    <ul>
+        <li>Direct editorial strategy and oversee print and digital production.</li>
+        <li>Lead a team of 10 writers and editors to strengthen reporting quality.</li>
+        <li>Increased social media engagement by 30% through targeted campaigns.</li>
+    </ul>
+
+    <p class="highlight-section">Gaylord News – Reporting Intern | May 2025 – August 2025</p>
+    <ul>
+        <li>Covered congressional hearings and policy developments from Capitol Hill.</li>
+        <li>Produced weekly stories translating federal policy for Oklahoma audiences.</li>
+        <li>Collaborated with editors for same-day deadline coverage.</li>
+    </ul>
+
+</body>
+</html>
+
