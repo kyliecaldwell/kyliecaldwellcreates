@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff5f7;
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+/* TABLE STRUCTURE (this is what gives you lines) */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+/* THIS creates the grid lines */
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 12px;
+}
+
+/* HEADER */
+th {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+/* OMBRÉ ROW COLORS */
+.row1 { background-color: #ffccd5; }
+.row2 { background-color: #ffb3c1; }
+.row3 { background-color: #ff8fab; }
+.row4 { background-color: #ff758f; }
+.row5 { background-color: #ff9e6d; }
+.row6 { background-color: #ffb347; }
+
+/* IMAGES */
+img {
+    border-radius: 8px;
+}
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* cursor blink */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
