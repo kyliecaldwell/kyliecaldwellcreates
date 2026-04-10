@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kylie's Closet</title>
+
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: Georgia, serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* BANNER IMAGE */
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* GALLERY */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .gallery {
+    max-width: 900px;
+    margin: auto;
+}
+
+        a {
+            text-decoration: none;
+        }
+
+        .contact-link {
+            display: block;
+            margin: 30px;
+            font-size: 20px;
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- YOUR BANNER -->
+<div class="banner">
+    <img src="Kylie's Closet.png">
+</div>
+
+<p class="site-desc">
+    Kylie's curated closet pieces for your own wardrobe. Click any thumbnail to see item description.
+</p>
+    <h2 class="section-title">Shop the Closet</h2>
+    
+<!-- Gallery -->
+<section class="gallery">
+    <div class="item">
+        <a href="item1.html">
+            <img src="item1.png">
+            <p class="item-name">TCE XCVII</p>
+            <p class="price">$30</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="item2.html">
+            <img src="item2.png">
+            <p class="item-name">TCE XCVI</p>
+            <p class="price">$30</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="item3.html">
+            <img src="item3.png">
+            <p class="item-name">TCE Summer Issue</p>
+            <p class="price">$30</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="item4.html">
+            <img src="item4.png">
+            <p class="item-name">TCE XV</p>
+            <p class="price">$30</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="item5.html">
+            <img src="item5.png">
+            <p class="item-name">TCE X</p>
+            <p class="price">$30</p>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="item6.html">
+            <img src="item6.png">
+            <p class="item-name">TCE XVI</p>
+            <p class="price">$30</p>
+        </a>
+    </div>
+</section>
+
+<a class="contact-link" href="contact.html">Contact Me For Prices</a>
+
+</body>
+</html>
